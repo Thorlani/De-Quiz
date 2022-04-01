@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: brown;
+}
+
+.container {
+    text-align: center;
+    height: 490px;
+    width: 318px;
+    background-color: burlywood;
+    border-radius: 25px;
+    padding-top: 20px;
+
+}
+
+.button-wrap {
+    margin-top: 1rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: .3fr .3fr;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+button {
+    width: 100px;
+    height: 25px;
+    border-radius: 12px;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.option-A-active {
+    background-color: red;
+}
+.option-B-active {
+    background-color: red;
+}
+.option-C-active {
+    background-color: green;
+}
+.option-D-active {
+    background-color: red;
+}
+
+.option-E-active {
+    background-color: green;
+}
+.option-F-active {
+    background-color: red;
+}
+.option-G-active {
+    background-color: red;
+}
+.option-H-active {
+    background-color: red;
+}
+.option-I-active {
+    background-color: red;
+}
+.option-J-active {
+    background-color: red;
+}
+.option-K-active {
+    background-color: red;
+}
+.option-L-active {
+    background-color: green;
+}
+.option-M-active {
+    background-color: red;
+}
+.option-N-active {
+    background-color: red;
+}
+.option-O-active {
+    background-color: red;
+}
+.option-P-active {
+    background-color: green;
+}
+.option-Q-active {
+    background-color: green;
+}
+.option-R-active {
+    background-color: red;
+}
+.option-S-active {
+    background-color: red;
+}
+.option-T-active {
+    background-color: red;
+}
+.option-U-active {
+    background-color: red;
+}
+.option-V-active {
+    background-color: red;
+}
+.option-W-active {
+    background-color: green;
+}
+.option-X-active {
+    background-color: red;
+}
+.option-Y-active {
+    background-color: red;
+}
+.option-Z-active {
+    background-color: red;
+}
+.option-AA-active {
+    background-color: green;
+}
+.option-BB-active {
+    background-color: red;
+}
+.option-CC-active {
+    background-color: green;
+}
+.option-DD-active {
+    background-color: red;
+}
+.option-EE-active {
+    background-color: red;
+}
+.option-FF-active {
+    background-color: red;
+}
+.option-GG-active {
+    background-color: red;
+}
+.option-HH-active {
+    background-color: red;
+}
+.option-II-active {
+    background-color: red;
+}
+.option-JJ-active {
+    background-color: green;
+}
+.option-KK-active {
+    background-color: green;
+}
+.option-LL-active {
+    background-color: red;
+}
+.option-MM-active {
+    background-color: red;
+}
+.option-NN-active {
+    background-color: red;
+}
+
+.next-previous {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    margin-top: 1.5rem;
+}
+
+.next-previous span {
+    height: 30px;
+    width: 100px;
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.next-previous span a {
+    text-decoration: none;
+    color: beige;
+}
+
+.top {
+    margin-top: 1rem;
+}
+
+.bottom {
+    margin-top: 2rem;
+}
